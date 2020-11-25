@@ -5,7 +5,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/AndroidProject
+    working_directory: ~/SQLiteLab
     docker:
       # specify the version you desire here
        - image: circleci/android:api-30-alpha
