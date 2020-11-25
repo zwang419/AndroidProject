@@ -5,9 +5,10 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/AndroidProject
     docker:
       # specify the version you desire here
-      - image: circleci/openjdk:8-jdk
+       - image: circleci/android:api-30-alpha
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
